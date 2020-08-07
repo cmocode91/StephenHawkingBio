@@ -1,0 +1,66 @@
+*{
+}
+
+body{
+    margin: 0;
+    padding:0;
+    background-image: url("shootingstar.jpg");
+    background-size: cover;
+    
+}
+
+#title{
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    color: white;
+    font-size:xx-large;
+    font-weight:bolder;
+    padding:20px;
+
+}
+
+#img-div{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+@media (max-width:543px){
+    #img-div{
+        margin:0 auto;
+        max-width: 50%;
+        max-height:50%
+    }
+}
+
+#tribute-info{
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    color: white;
+    font-size:xx-large;
+    font-weight:bolder;
+    padding:20px;
+    margin: 20px;
+
+}
+
+#list{
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    color:yellow;
+    font-size:large;
+    font-weight:bolder;
+    padding:20px;
+    margin: 20px;
+
+}
+
+.link{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}
